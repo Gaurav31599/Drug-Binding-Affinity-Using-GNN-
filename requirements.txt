@@ -1,0 +1,19 @@
+# Core scientific stack
+numpy>=1.26
+pandas>=2.0
+scipy>=1.11
+scikit-learn>=1.4
+xgboost>=2.0
+
+# Cheminformatics
+rdkit>=2023.9          # molecule parsing, Morgan fingerprints, Bemis-Murcko scaffolds
+
+# Deep learning (GNN)
+torch>=2.1
+torch-geometric>=2.5   # message-passing GNN over molecular graphs
+
+# Experiment tracking
+mlflow>=2.10
+
+# Testing
+pytest>=8.0

@@ -1,0 +1,7 @@
+# Normalise line endings: store everything as LF in the repo.
+* text=auto eol=lf
+
+# Notebooks and data blobs are not line-diffable.
+*.ipynb -text
+*.pt binary
+*.pkl binary

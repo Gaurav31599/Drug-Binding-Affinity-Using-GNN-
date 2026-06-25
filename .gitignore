@@ -1,0 +1,27 @@
+# MLflow local tracking
+mlruns/
+mlartifacts/
+
+# Trained model weights and large artifacts
+models/
+
+# Data (raw downloads + processed caches) — re-derivable, not committed
+data/raw/
+data/processed/
+src/affinity_gnn/data/raw/
+src/affinity_gnn/data/processed/
+
+# Smoke-test scratch metrics (never the committed results/metrics.csv)
+results/metrics_smoke.csv
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
